@@ -42,8 +42,8 @@ render(
       <Route path="/Accessories" element={<Accessories />} />
       <Route path="/Support" element={<Support />} />
       <Route path="/iphone/:pid" element={<Productpage />} />
-      <Route path="Search" element={<Search />} />
-      <Route path="/cart" element={<Cart />} />
+      <Route path="/Search" element={<Search />} />
+      <Route path="/Cart" element={<Cart />} />
       <Route path="/*" element={<Four04 />} />
       <Route path="/iphone/:pid" element={<Productpage/>} />
     </Routes>
