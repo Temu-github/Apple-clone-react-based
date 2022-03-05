@@ -43,7 +43,6 @@ function FourthBodySection() {
                                 <div className="links-wrapper">
                                     <Product linkUrl="/some link/" linkName="Learn More"
                                     linkUrl1='/some link/'linkName1="Buy" />
-                                   
                                 </div>
                             </div>
                         </div>

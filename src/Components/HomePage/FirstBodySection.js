@@ -7,7 +7,7 @@ function FirstBodySection() {
         <div className="holiday-wrapper">
             <div class="welcome_info_wrapper">
                 <div class="welcome_info sub-heading-links">
-                    <p className=" title-wraper shop-heading " > Last chance to shop holiday gifts. Buy online and pick up at an Apple Store or choose two‑hour courier<sup>1</sup> or free delivery.<a href="/some link/"> Shop now</a></p>
+                    <p className=" title-wraper shop-heading " > We look forward to welcoming you to our stores. Whether you shop in a store or <a href="/some link/"> shop online</a>,  our Specialists can help you buy the products you love.</p>
                 </div>
                
             </div>

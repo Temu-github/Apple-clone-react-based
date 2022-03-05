@@ -37,11 +37,7 @@ img {
 	
 	
 }
-/* .nav-wrapper ul li a {
-	color: #f807f8!important;
-	font-weight: 800;
-	opacity: .3;
-} */
+
 .nav-wrapper a img {
 	opacity: .7;
 }
@@ -63,7 +59,7 @@ img {
 }
 /* Subheading styling */
 .welcome_info_wrapper {
-	background-color: #e34140;
+	background-color: #f5f5f7;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -73,7 +69,7 @@ img {
 		font-weight: 400;
 		word-spacing: 0.1rem;
 		padding: 50px 0 15px 0;
-		color: #fbfbfd;
+		color: #000007;
 		max-width: 100%;
 	}
 	.title-wraper.shop-heading a{
@@ -328,6 +324,31 @@ color: honeydew;
 	margin: 0 0 10px 0;
 	background-size: cover;
 }
+/* iphone-4-wrapper */
+.iphone-4-wrapper{
+	background-color: #f2f2f2;
+}
+.iphone-4-wrapper .left-side-wrapper .left-side-container {
+	background-image: url("../images/Iphone/trade_in__djk6i9425m4i_small_2x.jpg");
+	background-color: #ffffff;
+	max-width:100%;
+	height:740px;
+    overflow: hidden;
+	background-position: bottom center;
+	margin: 28px 20px 85px 20px;
+	background-size: 435px 368px;
+}
+.iphone-4-wrapper .right-side-wrapper .right-side-container {
+	background-image: url("../images/Iphone/apple_card__eftge9q4kccy_medium_2x.jpg");
+	background-color: #ffffff;
+	max-width:100%;
+	height:740px;
+    overflow: hidden;
+	background-position: bottom center;
+	margin: 28px 20px 85px 20px;
+	background-size: 635px 368px;
+}
+
 .fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
 	background-image: url("../images/tile_watch__e9n11b6m6yq2_large.jpg");
 	background-color: #fbfbfd;
@@ -340,6 +361,34 @@ color: honeydew;
 	max-width: 450px;
 	margin: 7px auto;
 }
+.iphone-4-wrapper .left-side-wrapper .title-wraper{
+	padding: 30px 40px 20px 95px;
+	color: #050303!important;
+}
+.iphone-4-wrapper .right-side-wrapper .title-wraper{
+	padding: 30px 5px 20px 5px;
+	max-width:480px!important;
+	font-size: 50px!important;
+	color: #050303!important;
+}
+.iphone-4-wrapper .description-wraper{
+	max-width: 440px;
+	margin: 7px auto;
+	font-size:20px;
+	line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+.iphone-4-wrapper .left-side-wrapper .description-wraper{
+	max-width: 510px;
+	margin: 0 auto;
+	padding: 10px 5px 0px 10px;
+	font-size:20px;
+	line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
 .watch-more-wrapper a {
 	text-decoration: none;
 	font-size: 0.85em;
@@ -391,17 +440,107 @@ text-decoration: none;
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	/* background-color: #35283c; */
 	text-align: center;
 	padding: 65px 20px;
 	color: #fff;
 	margin-bottom: 10px;
-
 	border-image: unset;
-
-	/* background-size: 1068px 617px; */
 }
-/*Rating wrapper*/
+
+.iphone-2-wrapper {
+	background-image: url("../images/Iphone/iphone_13__fc54ap6asium_small.jpg");
+	height: 560px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	margin-bottom: 10px;
+	border-image: unset;
+}
+
+.iphone-3-wrapper {
+	background-image: url("../images/Iphone/guided_tour__efq13m207wae_large.jpg");
+	width: 1412px;
+    height: 814px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius:5%;
+	padding: 305px 50px 20px 150px;
+	color: #fff;
+	margin-top:20px;
+	margin: 0 auto;
+}
+.iphone-5-wrapper{
+	background-image: url("../images/Iphone/why_apple__el2f318k348y_large.jpg");
+	width: 1380px;
+    height: 560px;
+	background-color: #fff;
+    background-position: center bottom;
+    padding-top: 134px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 50px 20px 150px;
+	color: rgb(8, 5, 5);
+	margin-top:20px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.iphone-3-wrapper .title-wraper{
+	width:500px;
+	padding-right:50px
+}
+.iphone-5-wrapper .title-wraper{
+	flex-basis: 40.66667%;
+    max-width: 45.66667%;
+	margin-left: auto;
+    margin-right:auto;
+	font-size: 50px!important;
+	color: rgb(5, 3, 3)!important;
+}
+.iphone-5-wrapper .description-wrapper{
+   max-width: 43.33333%;
+   flex-basis: 40.66667%;
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 18px;
+	font-size: 21px!important;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .014em;
+}
+.container .iphone-5-wrapper{
+	max-width: 750px;
+    margin: 0 auto;
+}
+.iphone-3-wrapper .links-wrapper{
+	border-radius: 980px;
+	background-color: #f7f9fc;
+	min-width: 28px;
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+}
+.iphone-5-wrapper .links-wrapper{
+	text-align: center;
+}
+.iphone-3-wrapper a{
+	color: black;
+}
+.iphone-3-wrapper a:hover{
+text-decoration: none;
+color:#000;
+cursor: pointer;
+}
+.iphone-container{
+	background: #122239;
+}
 .rating-result{
     background: #333333;
     padding: 10px;
@@ -442,6 +581,18 @@ font-size: 31px;
 /*First Section*/
 .first-hightlight-wrapper {
 	background-image: url("../images/hero_iphone_13pro__dhnsegysa42u_small.jpg");
+	height: 580px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: initial;
+	background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.iphone-wrapper {
+	background-image: url("../images/Iphone/iphone_13_pro__en2q051lfus2_small.jpg");
 	height: 580px;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -521,6 +672,7 @@ font-size: 31px;
 	max-width: 90%;
 	margin: 0 auto;
 }
+
 /*Media Query*/
 /* Footer */
 @media (max-width: 733px) {
@@ -539,6 +691,7 @@ font-size: 31px;
 		right: 25px;
 		font-weight: 400;
 	}
+	
 	.footer-links-wrapper h3.expanded:after {
 		font-family: "FontAwesome";
 		content: "\f00d";
@@ -634,6 +787,30 @@ font-size: 31px;
 		background-image: url("../images/hero_iphone_13__f194u1rdooeq_medium.jpg");
 		border-image: 2px ;
 	}
+	.iphone-2-wrapper {
+		background-color: #122239;
+		min-height: 580px;
+		background-position: bottom;
+		background-size: contain;
+		background-image: url("../images/Iphone/iphone_13__fc54ap6asium_medium.jpg");
+		border-image: 2px ;
+	}
+	.iphone-3-wrapper {
+		background-color: #f9fafc;
+		min-height: 580px;
+		background-position: top;
+		background-size: contain;
+		background-image: url("../images/Iphone/guided_tour__efq13m207wae_medium_2x.jpg");
+		border-image: 2px ;
+	}
+	.iphone-2-wrapper .title-wraper{
+		font-size: 40px!important;
+padding-bottom: 10px!important;
+	}
+	.iphone-2-wrapper img{
+		width: 100px !important;
+		padding-bottom: 10px!important;
+	}
 	.new-alert {
 		color: #bf4801;
 		font-size: 18px;
@@ -644,6 +821,12 @@ font-size: 31px;
 		min-height: 692px;
 		background-position: center;
 	}
+	.iphone-wrapper {
+		background-image: url("../images/hero_iphone_13pro__dhnsegysa42u_medium.jpg");
+		min-height: 692px;
+		background-position: center;
+	}
+
 	.ipod-caption {
 		padding-top: 415px;
 	}

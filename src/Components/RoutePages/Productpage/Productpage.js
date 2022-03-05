@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Four04 from "../Four04/Four04";
-
+import Iphone from "../Iphone/Iphone";
 function Productpage(props) {
 	const [products, setProducts] = useState([]);
 	const [productID, setProductID] = useState(props.match.params.pid);
