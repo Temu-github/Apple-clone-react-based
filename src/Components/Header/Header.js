@@ -33,8 +33,8 @@ function Header() {
                                 <ul className="navbar-nav nav-justified w-100 nav-fill">
                                     <HeaderLink LinkName="Store" LinkUrl="/store/" />
                                     <HeaderLink LinkName="Mac" LinkUrl="/mac/" />
+                                    <HeaderLink LinkName="iPhone" LinkUrl="/iphones/" />
                                     <HeaderLink LinkName="iPad" LinkUrl="/ipad/" />
-                                    <HeaderLink LinkName="iPhones" LinkUrl="/iphones/" />
                                     <HeaderLink LinkName="Watch" LinkUrl="/watch/" />
                                     <HeaderLink LinkName="AirPods" LinkUrl="/airpods/" />
                                     <HeaderLink LinkName="TV & Home" LinkUrl="/tv_home/" />
