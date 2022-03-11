@@ -1,16 +1,23 @@
 import React from "react";
 import Product from "../../HomePage/Product/Product";
-import iphone13 from "../../../images/Iphone/iphone_13_logo__wnft2v5iq2qa_large_2x.png"
+import iphone13 from "../../../images/Iphone/iphone_13_pro_logo__2azch2ecffmi_small_2x.png"
+import iphone13img from "../../../images/Iphone/iphone_13_logo__wnft2v5iq2qa_large_2x.png"
 import ProductIphone from "../../HomePage/Product/ProductIphone";
 
 
 function Iphones() {
     return (
-        <div>
+        <div className="iphonesPage">
+            <div class="welcome_info_wrapper">
+                <div class="welcome_info sub-heading-links">
+                    <p className=" title-wraper shop-heading " > Get 3% Daily Cash back with Apple Card. And pay for your new iPhone over 24 months, interest‑free when you choose to check out with Apple Card Monthly Installments.*<a href="/some link/"> <br/>Learn more</a> </p>
+                </div>
+
+            </div>
             <section className="iphone-wrapper">
                 <div className="container">
                     <div className="title-wraper bold black">
-                        <img src={iphone13} alt="iphone13-logo" />
+                        <img src={iphone13} alt="iphone13-logo"/>
                     </div>
                     <div className="title-wraper bold black">
                         Oh.So.Pro.
@@ -29,30 +36,30 @@ function Iphones() {
                     <div className="container">
                         
                         <div className="logo-wrapper">
-                             <img src={iphone13} />
+                             <img src={iphone13img} />
                         </div>
                         <div className="title-wraper bold13">
                            
                             Your new Superpower.
                         </div>
-                        <div className="description-wrapper iphone13 ">
+                        <div className="description-wrapper  ">
                             From $29.12/mo. for 24 mo. or $699 before trade‑in<sup>1</sup>
                         </div>
-                        <div className="links-wrapper iphone13">
+                        <div className="links-wrapper">
                             <Product linkName="Buy" linkUrl="/some link"
                                 linkName1="Learn more" linkUrl1="/some link" />
                         </div>
                     </div>
                 </section></div>
             <section className="iphone-3-wrapper">
-                <div className="container">
-                    <div className="description-wrapper iphone13 ">
+                <div className="container ">
+                    <div className="description-wrapper">
                         A Guided Tour of
                     </div>
-                    <div className="title-wraper bold13 black iphone13">
+                    <div className="title-wraper bold13 black">
                         iPhone 13 & iPhone 13 Pro
                     </div>
-                    <div className="links-wrapper iphone13">
+                    <div className="links-wrapper">
                     <a href="/some link/">Watch the film</a>
                     </div>
                 </div>
@@ -89,7 +96,7 @@ function Iphones() {
                     </div>
                 </div>
             </section>
-            <section className="iphone-5-wrapper">
+            <section className="iphone-5-wrapper dddd">
                 <div className="container">
                     <div className="title-wraper bold13 black iphone13">
                         Why Apple is the best place to buy iPhone.
